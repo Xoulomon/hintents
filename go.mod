@@ -1,11 +1,12 @@
 module github.com/dotandev/hintents
 
-go 1.25.5
+go 1.21
 
 require (
 	github.com/spf13/cobra v1.7.0
 	github.com/stellar/go v0.0.0-20251210100531-aab2ea4aca88
 	github.com/stretchr/testify v1.10.0
+	modernc.org/sqlite v1.28.0
 )
 
 require (
@@ -15,6 +16,7 @@ require (
 	github.com/go-errors/errors v1.5.1 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/schema v1.4.1 // indirect
+	github.com/hashicorp/go-version v1.8.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/klauspost/compress v1.17.6 // indirect
 	github.com/manucorporat/sse v0.0.0-20160126180136-ee05b128a739 // indirect
